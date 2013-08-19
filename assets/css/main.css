@@ -1,0 +1,60 @@
+body {
+	color:#999;
+	font-family:'Roboto',sans-serif;
+	background-color:#fff;
+}
+a {
+	color:#999;
+	text-decoration:none;
+	border-bottom:1px solid #999;
+}
+a:hover, a:focus {
+	color:#222;
+	border-bottom-color:#222;
+}
+p {
+	font-size:16px;
+	font-weight:400;
+}
+#Header {
+	position:absolute;
+	top:60px;
+	right:60px;
+	bottom:120px;
+	left:60px;
+	background-color:transparent;
+	background-image:url(http://inserr.at/assets/images/i-5x_logoGraphic.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	opacity:0.05;
+}
+#Header > * {
+	display:none;
+	visibility:hidden;
+}
+#Body {
+	position:absolute;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1000;
+	padding:0px 0 20px 0;
+	text-align:center;
+	background-color:#eee;
+}
+#Footer {
+	position:absolute;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1001;
+	text-align:center;
+	background-color:transparent;
+}
+#Footer p {
+	font-size:14px;
+	font-weight:300;
+	margin:0 0 16px 0;
+	padding:0;
+}
